@@ -1,0 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Ubuntu-Th.ttf);
+}
+
+.privacy-page{
+    margin-top: 200px;
+    font-family: myFirstFont;
+    width: 100%;
+    position: relative;
+}
