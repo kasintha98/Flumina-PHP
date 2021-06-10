@@ -1,0 +1,80 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Ubuntu-Th.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: myFirstFont;
+}
+.btn1 {
+  font-family: myFirstFont;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #010a2d;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.btn1:hover {
+  background: white;
+  border: 1px solid;
+  color: #010a2d;
+}
+.login-form a {
+  text-decoration: none;
+  /* color: ; */
+}
+
+.contact-form p a {
+  text-decoration: none;
+  /* color: ; */
+}
+@media (max-width: 992px) {
+  img {
+    width: 50%;
+    align-items: center;
+  }
+}
+/* .contact-form{
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+} */
+.contact-form h2 {
+  /* background-color: #efefef; */
+  margin-top: 0;
+  padding: 10px;
+}
+.contact-form input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.contact-form textarea {
+  width: 90%;
+  margin: 5px auto;
+  padding: 10px;
+  height: 80px;
+  font-family: myFirstFont;
+}
+.submit-btn {
+  cursor: pointer;
+  width: 150px !important;
+  margin-left: 18px !important;
+}
+.g-recaptcha {
+  margin: 10px 20px;
+}
+.status {
+  font-size: 15px;
+  color: green;
+  padding: 15px;
+}
+.status span {
+  color: red;
+}
